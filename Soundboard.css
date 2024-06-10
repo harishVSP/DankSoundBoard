@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+.head{
+  background-color: rgb(168, 10, 23);
+  padding: 1rem;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  color: rgb(100, 200 ,255);
+  font-family: "joker", cursive;
+}
+body {
+  background-color: rgb(161, 100, 223);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.btn {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus /* Focus generally refers to the state where a user is actively interacting with an element, often indicated by an outline around the element.*/{
+  outline: none;
+}
